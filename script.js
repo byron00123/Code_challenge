@@ -123,6 +123,8 @@ console.log(`NHIF: ${nhif}`);
 console.log(`NSSF: ${nssf}`);
 console.log(`Total Deductions: ${totalDeductions}`);
 console.log(`Net Pay: ${netPay}`);
+finalOutput = `${netPay}`;
+console.log("finalOutput");
   
   document.getElementById("salary-id").append(finalOutput);
 });
